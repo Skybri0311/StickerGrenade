@@ -1,0 +1,87 @@
+#header {
+    margin-top: 5px;
+    border-bottom-color: black;
+    border-bottom: 30px;
+}
+h1{
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+    font-size: 400%;
+    background-color: gray;
+}
+body{    
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+    font: 18px;
+    background:lightslategray;
+}
+
+footer{
+   
+    bottom:0px;
+    margin: auto;
+    width: 100%;
+    font-size: 15px;
+
+}
+.menu-option:hover{
+    color: firebrick;
+    cursor: pointer;
+}
+.active{ 
+    color: firebrick;
+    background-color: black;
+    border-color: black;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 300px;
+}
+.menu-option{
+    margin-right: 25px;
+    
+}
+.main-menu{
+    
+    color: black;
+    padding: 8pxw 16px;
+    width: 10px;
+    margin-top: 5%;
+    font-size: 200%;
+    border-bottom-color: black;
+    border-bottom-width: 20px;
+    
+    
+}
+
+.flex-container{
+    /*create flex layout context*/
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: space-evenly;
+
+}
+.banner{
+    background: gray;
+    resize: vertical;
+    border-bottom: 10px inset black !important;;
+
+}
+.title{
+    font-size: 250%;
+    text-align: start;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+h2{
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+    font-size: 300%;
+}

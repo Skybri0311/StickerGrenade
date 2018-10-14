@@ -1,0 +1,26 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: firebrick;
+}
+.grid-container-a{
+    display: inline-grid;
+    grid-template-areas: 320px 320px 320px;
+    background-color: firebrick;
+    padding: 10px;
+    margin: 5%;
+}
+.grid-container-b{
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    background-color: firebrick;
+    align-content: center;
+    
+}
+.grid-item{
+    background-color: gray;
+    border: 10px solid black;
+    font-size: 50px;
+    text-align: center;
+    align-content: center;
+}

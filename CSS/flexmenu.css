@@ -1,0 +1,16 @@
+.flexmenu{
+    flex-flow: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.flexmenu .card-outer{
+    flex: 1 1 1 1  300px;
+   
+}
+.flexmenu .card-outer .card-inner{
+    width: 100%;
+    min-height: 240px;
+}

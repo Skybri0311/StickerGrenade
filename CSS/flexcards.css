@@ -1,0 +1,15 @@
+.flexcards{
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.flexcards .card-outer{
+    flex: 1 1 1 1  300px;
+   
+}
+.flexcards .card-outer .card-inner{
+    width: 100%;
+    min-height: 240px;
+}
